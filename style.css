@@ -1,9 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 #calculator {
   border: 5px solid black;
   background-color: gray;
   border-radius: 5px;
   width: 400px;
-  height: 500px;
+  height: 650px;
   padding: 20px;
   display: flex;
   flex-flow: row wrap;
@@ -14,18 +19,28 @@
 }
 
 #screen {
+  box-sizing: border-box;
   width: 95%;
   height: 15%;
   border: 3px solid black;
   text-align: right;
   background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  justify-content: center;
+  padding-right: 5%;
+}
+
+#large {
+  font-size: xx-large;
 }
 
 button {
   border: 3px solid black;
   border-radius: 50%;
   width: 22%;
-  height: 17%;
+  height: 13%;
   font-size: 30px;
   font-weight: normal;
 }
