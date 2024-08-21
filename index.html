@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Calculator</h1>
     <div id="calculator">
       <div id="screen">
-        <p id="small"></p>
-        <p id="large"></p>
+        <p id="left"></p>
+        <p id="right"></p>
       </div>
       <button class="input">9</button>
       <button class="input">8</button>
@@ -28,11 +29,14 @@
       <button class="input">0</button>
       <button class="input">.</button>
       <button class="symbols">/</button>
-      <button class="bottom">ANS</button>
-      <button class="bottom">DEL</button>
-      <button class="bottom">AC</button>
+      <button class="bottom" id="ans">ANS</button>
+      <button class="bottom" id="del">DEL</button>
+      <button class="bottom" id="clear">AC</button>
       <button class="bottom" id="equal">=</button>
     </div>
+    <p><strong>Keyboard shortcuts:-</strong></p>
+    <p>A: ANS, C: CLEAR, BACKSPACE: DEL</p>
+    <p>ENTER or '=' button: =</p>
     <script src="script.js"></script>
   </body>
 </html>
